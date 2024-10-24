@@ -150,3 +150,50 @@ body {
   position: relative;
   top: 1px;
 }
+
+/* header content */
+
+.header__badge {
+  display: inline-block;
+  padding: 12px 30px;
+  margin-bottom: 7px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.25);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.header__title {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 55px;
+}
+
+.header__text {
+  margin-bottom: 68px;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header__btn {
+  display: inline-block;
+  padding: 27px 48px;
+  border-radius: 27px;
+  font-size: 25px;
+  font-weight: 600;
+  background: linear-gradient(
+    180deg,
+    rgb(255, 123.4, 77.56) 0%,
+    rgb(255, 88.21, 77.56) 100%
+  );
+}
+
+.header__btn:hover {
+  color: yellow;
+}
+
+.header__btn:active {
+  position: relative;
+  top: 1px;
+}
