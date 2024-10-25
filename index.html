@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel project</title>
     <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header class="header none">
@@ -64,11 +78,53 @@
               <a href="#!" class="destinations__btn">Exsplore Now</a>
             </div>
             <div class="destinations__slider">
-              <div class="block">destinations__slider</div>
+              <div class="slider">
+                <div class="owl-carousel">
+                  <img
+                    src="./img/slider/01.jpg"
+                    alt="slider item"
+                    class="slider__item"
+                  />
+                  <img
+                    src="./img/slider/02.jpg"
+                    alt="slider item"
+                    class="slider__item"
+                  />
+                  <img
+                    src="./img/slider/03.jpg"
+                    alt="slider item"
+                    class="slider__item"
+                  />
+                </div>
+                <button class="slider__btn slider__btn--prev">
+                  <img src="./img/slider/arrow-left.svg" alt="" />
+                </button>
+                <button class="slider__btn slider__btn--next">
+                  <img src="./img/slider/arrow-right.svg" alt="" />
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-JobWAqYk5CSjWuVV3mxgS+MmccJqkrBaDhk8SKS1BW+71dJ9gzascwzW85UwGhxiSyR7Pxhu50k+Nl3+o5I49A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
