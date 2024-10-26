@@ -486,3 +486,30 @@ body {
   font-weight: 600;
   color: #fff;
 }
+
+/* footer */
+
+.footer {
+  min-height: 49px;
+  margin: 50px 0 74px;
+}
+
+.footer__content .logo {
+  color: #ff7c4e;
+}
+
+.footer__content .nav__list {
+  color: rgba(15, 31, 28, 0.5);
+}
+
+/* layout */
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
