@@ -396,3 +396,51 @@ body {
   font-weight: 500;
   color: rgba(15, 31, 28, 0.5);
 }
+
+/* proposition */
+
+.proposition {
+  margin: 100px 0 135px;
+}
+
+.proposition__content {
+  position: relative;
+  padding: 115px 0;
+  border-radius: 60px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.proposition__title {
+  width: 520px;
+  margin: 0 auto 30px;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.proposition__text {
+  margin: 0 auto 60px;
+  width: 715px;
+  font-size: 30px;
+  font-weight: 400;
+  color: rgba(15, 31, 28, 0.5);
+}
+
+.proposition__btn {
+  padding: 25px 55px;
+  border-radius: 27px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.proposition__cta--left {
+  position: absolute;
+  left: 74px;
+  bottom: 56px;
+}
+
+.proposition__cta--right {
+  position: absolute;
+  top: 74px;
+  right: 80px;
+}
