@@ -5,6 +5,7 @@
   --container-width: 1270px;
   --container-padding: 15px;
   --secondary: rgba(15, 31, 28, 0.5);
+  --orange: #ff7c4e;
 }
 
 body {
@@ -50,6 +51,7 @@ body {
   background: linear-gradient(132deg, #428e5f 0%, #112120 100%);
   color: white;
 }
+
 .header a {
   color: white;
 }
@@ -77,7 +79,6 @@ body {
   position: relative;
   max-width: 592px;
   z-index: 1;
-  /* background-color: chocolate; */
 }
 
 /* nav */
@@ -151,6 +152,7 @@ body {
 
 .btn:hover {
   color: yellow;
+  transition: color 1s;
 }
 
 .btn:active {
@@ -336,8 +338,7 @@ body {
 /* customers */
 
 .customers {
-  margin-top: 100px;
-  margin-bottom: 133px;
+  margin: 100px 0 133px;
 }
 
 .customers__row {
@@ -374,7 +375,8 @@ body {
   width: 134px;
   height: 134px;
   border-radius: 50%;
-  background-color: #ffaa99;
+  overflow: hidden;
+  background-color: #ff794e;
 }
 
 .customers__name {
@@ -386,7 +388,7 @@ body {
 .customers__country {
   font-size: 25px;
   font-weight: 400;
-  color: rgba(15, 31, 28, 0.5);
+  color: var(--secondary);
 }
 
 .customers__text {
@@ -394,7 +396,7 @@ body {
   max-width: 491px;
   font-size: 22px;
   font-weight: 500;
-  color: rgba(15, 31, 28, 0.5);
+  color: var(--secondary);
 }
 
 /* proposition */
@@ -423,7 +425,7 @@ body {
   width: 715px;
   font-size: 30px;
   font-weight: 400;
-  color: rgba(15, 31, 28, 0.5);
+  color: var(--secondary);
 }
 
 .proposition__btn {
@@ -472,7 +474,7 @@ body {
   margin: 46px;
   font-size: 24px;
   font-weight: 500;
-  color: rgba(15, 31, 28, 0.5);
+  color: var(--secondary);
 }
 
 .subscribe__btn {
@@ -494,12 +496,33 @@ body {
   margin: 50px 0 74px;
 }
 
-.footer__content .logo {
-  color: #ff7c4e;
+.footer a {
+  color: var(--secondary);
 }
 
-.footer__content .nav__list {
-  color: rgba(15, 31, 28, 0.5);
+.footer .logo a {
+  color: var(--orange);
+}
+
+.footer .nav__login li:first-child a {
+  color: #838b89;
+}
+
+.footer .nav__login li:last-child a {
+  color: #fff;
+}
+
+.footer .nav__list a:hover::after,
+.footer .nav__list a.active::after {
+  display: none;
+}
+
+.footer .nav__list a.active {
+  color: var(--orange);
+}
+
+.footer .nav__login {
+  column-gap: 66px;
 }
 
 /* layout */
