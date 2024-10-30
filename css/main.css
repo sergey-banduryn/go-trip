@@ -440,6 +440,20 @@ main {
   right: 80px;
 }
 
+.proposition__content::after {
+  position: absolute;
+  content: url("../img/cta/cta-el-01.svg");
+  top: 74px;
+  right: 80px;
+}
+
+.proposition__content::before {
+  position: absolute;
+  content: url("../img/cta/cta-el-02.svg");
+  left: 74px;
+  bottom: 56px;  
+}
+
 /* subscribe */
 
 .subscribe {
