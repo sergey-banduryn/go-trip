@@ -221,6 +221,11 @@ main {
   pointer-events: none;
 }
 
+/* .header__img::after {
+  position: absolute;
+  content: url("./../img/header/el-1.svg");
+} */
+
 /* destinations */
 
 .destinations {
