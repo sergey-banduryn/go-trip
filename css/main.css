@@ -331,7 +331,7 @@ main {
 /* customers */
 
 .customers {
-  margin: 100px 0 133px;
+  margin: 100px 0 233px;
 }
 
 .customers__row {
@@ -395,7 +395,7 @@ main {
 /* proposition */
 
 .proposition {
-  margin: 100px 0 135px;
+  margin-bottom: 135px;
 }
 
 .proposition__content {
@@ -451,13 +451,13 @@ main {
   position: absolute;
   content: url("../img/cta/cta-el-02.svg");
   left: 74px;
-  bottom: 56px;  
+  bottom: 56px;
 }
 
 /* subscribe */
 
 .subscribe {
-  margin-bottom: 56px;
+  margin-bottom: 106px;
 }
 
 .subscribe__title {
@@ -468,7 +468,7 @@ main {
   font-weight: 600;
 }
 
-.subscribe__box {
+.subscribe__form {
   width: 800px;
   margin: 0 auto;
   border-radius: 35px;
@@ -500,7 +500,7 @@ main {
 
 .footer {
   min-height: 49px;
-  margin: 50px 0 74px;
+  margin-bottom: 74px;
 }
 
 .footer a {
@@ -530,4 +530,8 @@ main {
 
 .footer .nav__login li:last-child a {
   color: #fff;
+}
+
+.footer .nav__login li:last-child a:hover {
+  color: yellow;
 }
