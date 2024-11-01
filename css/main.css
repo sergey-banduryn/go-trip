@@ -732,6 +732,49 @@ main {
     border-radius: 20px;
     font-size: 18px;
   }
+
+  .customers {
+    margin: 50px 0 110px;
+  }
+
+  .customers__row {
+    flex-direction: column-reverse;
+    row-gap: 30px;
+  }
+
+  .customers__title {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+
+  .customers__author {
+    margin-bottom: 20px;
+  }
+
+  .customers__avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .customers__name {
+    font-size: 23px;
+    margin-bottom: 5px;
+  }
+
+  .customers__text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .customers__rating {
+    max-width: 200px;
+  }
+
+  .customers__img img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 40px;
+  }
 }
 
 @media (max-width: 850px) {
