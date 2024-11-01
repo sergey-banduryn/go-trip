@@ -667,8 +667,8 @@ main {
 
   .nav--mobile .nav__toggle {
     position: fixed;
-    top: 50px;
-    right: 50px;
+    top: 40px;
+    right: 15px;
   }
 
   .nav--mobile .nav__logo {
@@ -685,6 +685,10 @@ main {
 }
 
 @media (max-width: 850px) {
+  .header {
+    min-height: unset;
+  }
+
   .header__row {
     flex-direction: column;
   }
@@ -729,5 +733,22 @@ main {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 460px) {
+  .header {
+    padding-top: 20px;
+  }
+
+  .header__img::after {
+    display: none;
+  }
+
+  .nav--mobile .nav__toggle {
+    top: 20px;
+    right: 15px;
+  }
+
+  .nav--mobile .nav__list,
+  .nav--mobile .nav__login {
+    row-gap: 20px;
+  }
 }
