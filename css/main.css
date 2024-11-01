@@ -674,4 +674,60 @@ main {
   .nav--mobile .nav__logo {
     font-size: 34px;
   }
+
+  .header__img img {
+    right: -256px;
+  }
+
+  .header__img::after {
+    right: -300px;
+  }
+}
+
+@media (max-width: 850px) {
+  .header__row {
+    flex-direction: column;
+  }
+
+  .header__img img {
+    position: static;
+    width: 70%;
+    height: auto;
+  }
+
+  .header__img::after {
+    top: 100px;
+    right: 0;
+  }
+
+  .header__title {
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+
+  .header__text {
+    margin-bottom: 40px;
+    font-size: 20px;
+    max-width: 400px;
+  }
+
+  .header__badge {
+    margin-bottom: 5px;
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+
+  .header__btn {
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 18px;
+  }
+
+  .header__top {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 700px) {
 }
