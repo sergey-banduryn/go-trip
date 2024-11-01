@@ -479,6 +479,9 @@ main {
 }
 
 .subscribe__form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 800px;
   margin: 0 auto;
   border-radius: 35px;
@@ -486,7 +489,8 @@ main {
 }
 
 .subscribe__input {
-  width: 248px;
+  /* width: 248px; */
+  /* flex: 0 1 248px; */
   height: 36px;
   margin: 46px;
   font-size: 24px;
@@ -495,8 +499,8 @@ main {
 }
 
 .subscribe__btn {
-  float: right;
-  width: 300px;
+  /* float: right; */
+  /* width: 300px; */
   height: 105px;
   margin: 12px 15px 12px;
   padding: 33px 87px;
@@ -794,6 +798,35 @@ main {
     width: unset;
     font-size: 20px;
     margin-bottom: 30px;
+  }
+
+  .subscribe {
+    margin-bottom: 50px;
+  }
+
+  .subscribe__title {
+    margin-bottom: 30px;
+    font-size: 35px;
+  }
+
+  .subscribe__form {
+    width: 65%;
+    flex-wrap: wrap;
+  }
+
+  .subscribe__input {
+    flex: 0 1 45%;
+    height: 26px;
+    margin: 26px;
+    font-size: 20px;
+  }
+
+  .subscribe__btn {
+    flex: 0 1 35%;
+    height: 76px;
+    margin: 8px 10px 8px;
+    padding: 13px 37px;
+    font-size: 20px;
   }
 }
 
