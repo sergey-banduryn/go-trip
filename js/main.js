@@ -30,4 +30,5 @@ $(".slider__btn--prev").click(function () {
 document.querySelector(".menu-icon-wrapper").onclick = function () {
   document.querySelector(".menu-icon").classList.toggle("menu-icon-active");
   document.querySelector(".nav").classList.toggle("nav--mobile");
+  document.body.classList.toggle("no-scroll");
 };

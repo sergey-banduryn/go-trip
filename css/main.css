@@ -604,6 +604,10 @@ main {
 
 /* media */
 
+.no-scroll {
+  overflow-y: hidden;
+}
+
 @media (max-width: 1270px) {
   .container-right {
     padding-left: 15px;
