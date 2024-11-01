@@ -26,3 +26,8 @@ $(".slider__btn--prev").click(function () {
   // Parameters has to be in square bracket '[]'
   owl.trigger("prev.owl.carousel", [300]);
 });
+
+document.querySelector(".menu-icon-wrapper").onclick = function () {
+  document.querySelector(".menu-icon").classList.toggle("menu-icon-active");
+  document.querySelector(".nav").classList.toggle("nav--mobile");
+};
