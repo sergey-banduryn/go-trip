@@ -775,6 +775,26 @@ main {
     height: auto;
     border-radius: 40px;
   }
+
+  .proposition {
+    margin-bottom: 65px;
+  }
+
+  .proposition__content {
+    padding: 50px 15px;
+    border-radius: 40px;
+  }
+
+  .proposition__title {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .proposition__text {
+    width: unset;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 850px) {
