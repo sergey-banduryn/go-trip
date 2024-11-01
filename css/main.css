@@ -221,10 +221,16 @@ main {
   pointer-events: none;
 }
 
-/* .header__img::after {
+.header__img::after {
   position: absolute;
-  content: url("./../img/header/el-1.svg");
-} */
+  content: url("./../img/header/header-elements.svg");
+  /* content: ""; */
+  /* background-image: url("./../img/header/header-elements.svg"); */
+  top: -30px;
+  right: -50px;
+  width: 830px;
+  height: 622px;
+}
 
 /* destinations */
 
