@@ -911,6 +911,15 @@ main {
 }
 
 @media (max-width: 600px) {
+  .proposition__title {
+    width: unset;
+  }
+
+  .proposition__content::after,
+  .proposition__content::before {
+    display: none;
+  }
+
   .footer .nav {
     flex-direction: column-reverse;
     row-gap: 15px;
