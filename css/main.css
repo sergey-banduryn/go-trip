@@ -375,6 +375,7 @@ main {
 }
 
 .customers__avatar {
+  flex-shrink: 0;
   width: 134px;
   height: 134px;
   border-radius: 50%;
@@ -724,6 +725,10 @@ main {
     height: 304px;
   }
 
+  .slider .center .slider__item {
+    margin: 0 auto;
+  }
+
   .destinations__title {
     margin-bottom: 10px;
     font-size: 35px;
@@ -747,11 +752,6 @@ main {
 
   .customers {
     margin: 50px 0 110px;
-  }
-
-  .customers__row {
-    flex-direction: column-reverse;
-    row-gap: 30px;
   }
 
   .customers__title {
@@ -886,12 +886,27 @@ main {
     margin-bottom: 40px;
   }
 
+  .customers__row {
+    column-gap: 30px;
+  }
+
   .footer .nav__login {
     display: none;
   }
 
   .footer .nav {
     justify-content: space-around;
+  }
+}
+
+@media (max-width: 700px) {
+  .customers__row {
+    flex-direction: column-reverse;
+    row-gap: 30px;
+  }
+
+  .customers__img {
+    text-align: center;
   }
 }
 
@@ -925,5 +940,9 @@ main {
   .nav--mobile .nav__list,
   .nav--mobile .nav__login {
     row-gap: 20px;
+  }
+
+  .customers__img img {
+    max-width: 100%;
   }
 }

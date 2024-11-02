@@ -12,18 +12,19 @@ var owl = $(".owl-carousel");
 owl.owlCarousel({
   center: true,
   loop: true,
-  margin: 20,
+  margin: 30,
   items: 3,
   startPosition: 1,
   responsive: {
-    0: {},
-    480: {},
-    850: {},
-    1000: {
-      margin: 30,
+    0: {
+      items: 1,
     },
-    1200: {
-      margin: 30,
+    600: {
+      items: 2,
+      margin: 20,
+    },
+    900: {
+      items: 3,
     },
   },
 });
