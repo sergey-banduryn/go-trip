@@ -489,6 +489,7 @@ main {
 }
 
 .subscribe__input {
+  width: 40%;
   height: 36px;
   margin: 46px;
   font-size: 24px;
@@ -813,7 +814,7 @@ main {
   }
 
   .subscribe__form {
-    width: 63%;
+    width: 65%;
   }
 
   .subscribe__input {
@@ -883,13 +884,15 @@ main {
   }
 
   .subscribe__form {
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
     padding-bottom: 15px;
   }
 
   .subscribe__input {
-    background-color: lightgray;
+    width: 70%;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: lightgrey;
   }
 
   .footer .nav__login {
@@ -966,6 +969,6 @@ main {
   }
 
   .subscribe__input {
-    width: 100%;
+    width: 80%;
   }
 }
