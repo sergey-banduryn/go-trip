@@ -483,23 +483,20 @@ main {
   justify-content: space-between;
   align-items: center;
   width: 800px;
+  padding: 12px 15px 12px 46px;
   margin: 0 auto;
   border-radius: 35px;
   background-color: #fff;
 }
 
 .subscribe__input {
-  width: 40%;
-  height: 36px;
-  margin: 46px;
+  width: 50%;
   font-size: 24px;
   font-weight: 500;
   color: var(--secondary);
 }
 
 .subscribe__btn {
-  height: 105px;
-  margin: 12px 15px 12px;
   padding: 33px 87px;
   border-radius: 35px;
   font-size: 25px;
@@ -814,20 +811,18 @@ main {
   }
 
   .subscribe__form {
+    padding: 10px 10px 10px 26px;
     width: 65%;
   }
 
   .subscribe__input {
-    height: 26px;
-    margin: 26px;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .subscribe__btn {
-    height: 76px;
-    margin: 8px 10px 8px;
-    padding: 13px 47px;
-    font-size: 20px;
+    padding: 20px 35px;
+    font-size: 18px;
+    border-radius: 20px;
   }
 }
 
@@ -883,18 +878,6 @@ main {
     column-gap: 30px;
   }
 
-  .subscribe__form {
-    flex-direction: column;
-    padding-bottom: 15px;
-  }
-
-  .subscribe__input {
-    width: 70%;
-    padding: 20px 10px;
-    border-radius: 10px;
-    background-color: lightgrey;
-  }
-
   .footer .nav__login {
     display: none;
   }
@@ -913,6 +896,10 @@ main {
   .customers__img {
     text-align: center;
   }
+
+  .subscribe__form {
+    width: 75%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -926,7 +913,17 @@ main {
   }
 
   .subscribe__form {
-    width: 75%;
+    flex-direction: column;
+    padding: 15px;
+    row-gap: 15px;
+  }
+
+  .subscribe__input {
+    width: unset;
+    align-self: stretch;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: lightgrey;
   }
 
   .footer .nav {
@@ -965,10 +962,6 @@ main {
   }
 
   .subscribe__form {
-    width: 95%;
-  }
-
-  .subscribe__input {
-    width: 80%;
+    width: 100%;
   }
 }
