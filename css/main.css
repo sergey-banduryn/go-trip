@@ -547,7 +547,6 @@ main {
 /* burger menu */
 
 .menu-icon-wrapper {
-  /*   background: red; */
   width: 30px;
   height: 30px;
   display: flex;
@@ -799,6 +798,12 @@ main {
     width: unset;
     font-size: 20px;
     margin-bottom: 30px;
+  }
+
+  .proposition__btn {
+    padding: 20px 35px;
+    font-size: 18px;
+    border-radius: 20px;
   }
 
   .subscribe {
